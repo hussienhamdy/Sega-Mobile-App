@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Sega</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="signUp_button">Sign Up</string>
+    <string name="signIn_button">login</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="repassword_hint">Confirm Password</string>
+    <string name="signup_link">Sign Up</string>
+    <string name="signup_link_prev">Do not have an account yet?</string>
+    <string name="game_register_button">Register</string>
+    <string name="game_register_text">enter game code</string>
+    <string name="profile_img_button">Choose Photo</string>
+    <string name="profile_img_text">Change Profile Photo :</string>
+
+    <!--profile hints-->
+    <string name="profile_fname">First Name</string>
+    <string name="profile_lname">Last Name</string>
+    <string name="profile_username">Username</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_phone">Phone </string>
+    <string name="profile_save">Save Changes</string>
+
+    <!--login errors-->
+    <string name="email_validation">please enter an email address</string>
+    <string name="password_validation">please enter password</string>
+    <string name="login_email_error">Invalid e-mail address</string>
+    <string name="login_password_error">Incorrect password</string>
+
+    <!--alert dialoge message-->
+    <string name="alert_dialogue">Error occured, check your network connection!</string>
+    <string name="alert_dialogue_ok">OK</string>
+
+    <!--signUp errors-->
+    <string name="signup_email_validation">enter a valid e-mail address</string>
+    <string name="signup_email_error">this account already exists!</string>
+    <string name="signup_password_validation1">please enter password</string>
+    <string name="signup_password_validation2">password between 6 and 45 characters</string>
+    <string name="signup_repassword_validation">password does not match</string>
+    <string name="signup_userName_validation">please enter Username</string>
+
+    <!--profile errors-->
+    <string name="profile_fname_error">First name should not contain numbers!</string>
+    <string name="profile_lname_error">Last name should not contain numbers!</string>
+    <string name="profile_phone_error">Number should be less than 11 digit!</string>
+
+    <!-- table headers-->
+    <string name="table_image">photo</string>
+    <string name="table_name">Name</string>
+    <string name="table_progress">Progress</string>
+    <string name="table_points">Points</string>
+
+    <!--gameregister errors-->
+    <string name="game_register_notfound">no game found for this code</string>
+    <string name="game_register_alreadyRegistered">already registered!</string>
+    <string name="game_register_empty">please enter code first</string>
+
+    <!-- empty_layout-->
+    <string name="empty_text">List is empty</string>
+
+    <!-- empty_layout-->
+    <string name="register_toast">Registered successfully</string>
+
+    <!--no connection text view -->
+    <string name="noConnection_text">No internet connection</string>
+
+    <!--tabLayout -->
+    <string name="tab_news">News</string>
+    <string name="tab_scoreBoard">ScoreBoard</string>
+
+    <!--lms text view -->
+    <string name="LMS_text">LMS</string>
+
+</resources>

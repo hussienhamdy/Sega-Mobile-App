@@ -1,0 +1,77 @@
+<resources>
+
+    <string name="app_name">Sega</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="signUp_button">انشاء حساب</string>
+    <string name="signIn_button">تسجيل الدخول</string>
+    <string name="email_hint">البريد الالكتروني</string>
+    <string name="password_hint">كلمة المرور</string>
+    <string name="repassword_hint">تأكيد كلمة المرور</string>
+    <string name="signup_link">انشاء حساب</string>
+    <string name="signup_link_prev">لا يوجد لديك حساب بعد؟</string>
+    <string name="game_register_button">تسجيل</string>
+    <string name="game_register_text">ادخل كود اللعبة</string>
+    <string name="profile_img_button">Choose Photo</string>
+    <string name="profile_img_text">Change Profile Photo :</string>
+
+    <!--profile hints-->
+    <string name="profile_fname">الاسم الاول</string>
+    <string name="profile_lname">الكنية</string>
+    <string name="profile_username">اسم المستخدم</string>
+    <string name="profile_email">البريد الالكتروني</string>
+    <string name="profile_phone">رقم الهاتف </string>
+    <string name="profile_save">حفظ التغييرات </string>
+
+    <!--login errors-->
+    <string name="email_validation">الرجاء ادخال البريد الاكتروني</string>
+    <string name="password_validation">الرجاء ادخال كلمة المرور</string>
+    <string name="login_email_error">البريد الالكتروني غير صحيح</string>
+    <string name="login_password_error">كلمة المرور غير صحيحه</string>
+
+    <!--alert dialoge message-->
+    <string name="alert_dialogue">يوجد مشكلة في الاتصال بالشبكة!</string>
+    <string name="alert_dialogue_ok">موافق</string>
+
+    <!--signUp errors-->
+    <string name="signup_email_validation">الرجاء ادخال بريد الكتروني صحيح</string>
+    <string name="signup_email_error">هذا الحساب موجود بالفعل!</string>
+    <string name="signup_password_validation1">الرجاء ادخال كلمة المرور</string>
+    <string name="signup_password_validation2">كلمة المرور يجب ان تكون بين 6 و 45 حرف</string>
+    <string name="signup_repassword_validation">كلمة المرور لا تتطابق</string>
+    <string name="signup_userName_validation">الرجاء ادخال اسم المستخدم</string>
+
+    <!--profile errors-->
+    <string name="profile_fname_error">الاسم الاول يلا يجب ان يحتوي علي اراقام</string>
+    <string name="profile_lname_error">الكنية لا يجب ان تحتوي علي ارقام</string>
+    <string name="profile_phone_error">رقم الهاتف لا يجب ان يتعدي 11 رقم</string>
+
+    <!-- table headers-->
+    <string name="table_image">الصورة</string>
+    <string name="table_name">الاسم</string>
+    <string name="table_progress">مقدار التقدم</string>
+    <string name="table_points">النقاط</string>
+
+    <!--gameregister errors-->
+    <string  name="game_register_notfound">لا يوجد لعبه بهذا الكود</string>
+    <string name="game_register_alreadyRegistered">انت بالفعل مسجل في هذه اللعبه</string>
+    <string name="game_register_empty">الرجاء ادخال الكود اولا</string>
+
+    <!-- empty_layout-->
+    <string name="empty_text">القائمة فارغة</string>
+
+    <string name="register_toast">تم التسجيل بنجاح</string>
+
+    <!--no connection text view -->
+    <string name="noConnection_text">خطأ في الاتصال بالشبكة</string>
+
+    <!--tabLayout -->
+    <string name="tab_news">الاخبار</string>
+    <string name="tab_scoreBoard">لوحة النقاط</string>
+
+    <!--lms text view -->
+    <string name="LMS_text">LMS</string>
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.ussien.sega.Activities.GameRegistrationActivity">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:padding="30dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/game_register_text"
+        android:padding="10dp"
+        android:textSize="17sp"
+        android:textColor="#37474F"
+        android:hint="@string/game_register_text"
+        android:background="@drawable/search_text_border"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+        <Button
+            android:id="@+id/game_register_button"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFFFFF"
+            android:text="@string/game_register_button"
+            android:background="@drawable/game_registration_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

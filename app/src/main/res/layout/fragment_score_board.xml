@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.ussien.sega.Fragments.ScoreBoardFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/no_connection_txt"
+            android:visibility="gone"
+            android:padding="5dp"
+            android:background="@drawable/no_connection_txt_bg"
+            android:text="@string/noConnection_text"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <include android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/loading_layout"
+            android:id="@+id/loading_layout"/>
+
+        <de.codecrafters.tableview.SortableTableView
+            android:id="@+id/tableView"
+            android:layout_width="match_parent"
+            app:tableView_columnCount="4"
+            android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
